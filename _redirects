@@ -1,0 +1,4 @@
+/play  /quiz/  301
+/english/*  /en/:splat  301
+/spanish/*  /es/:splat  301
+/*  /404.html  404

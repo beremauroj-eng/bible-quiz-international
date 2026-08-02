@@ -1,0 +1,204 @@
+<!doctype html>
+
+
+<html lang="en-AU">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="#080c18" name="theme-color"/>
+<meta content="noindex,follow" name="robots"/>
+<link href="https://biblequiz.international/quiz/" rel="canonical"/>
+<meta content="A premium bilingual Bible quiz website with 5,000+ verified questions, adaptive quizzes, daily study, timelines, maps, curated context and detailed learning analytics." name="description"/>
+<meta content="website" property="og:type"/>
+<meta content="Bible Quiz International — Website Edition" property="og:title"/>
+<meta content="Explore and grow your Bible knowledge with 5,000+ verified questions, adaptive quizzes, timelines, maps and daily learning." property="og:description"/>
+<meta content="https://biblequiz.international/assets/social-card.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Bible Quiz International" name="twitter:title"/>
+<meta content="5,000+ verified Bible questions with adaptive learning, timelines, maps and progress insights." name="twitter:description"/>
+<meta content="https://biblequiz.international/assets/social-card.png" name="twitter:image"/>
+<link href="assets/logo-icon.png" rel="icon"/>
+<link href="assets/styles.css" rel="stylesheet"/>
+<link href="assets/experience.css" rel="stylesheet"/>
+<title>Bible Quiz International — Free Interactive Bible Quiz</title>
+<script defer="" src="js/i18n.js"></script><script defer="" src="js/data-loader.js"></script>
+<script defer="" src="js/audio.js"></script>
+<script defer="" src="js/app.js"></script>
+<script defer="" src="js/experience.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"Bible Quiz International — Interactive Bible Quiz","url":"https://biblequiz.international/quiz/","description":"A free bilingual Bible quiz website with 5,000+ verified questions, explanations, maps, timelines and progress tracking.","inLanguage":["en-AU","es"],"isAccessibleForFree":true,"learningResourceType":"Interactive quiz","educationalUse":["practice","assessment","self study"],"provider":{"@type":"Organization","name":"Bible Quiz International","url":"https://biblequiz.international"}}</script></head>
+<body>
+<a class="skip-link" href="#mainContent">Skip to main content</a>
+<div aria-label="Loading Bible Quiz International" aria-live="polite" class="app-splash" id="appSplash">
+<div class="app-splash-card">
+<div aria-label="Bible Quiz International — The Ultimate Bible Challenge" class="app-splash-brand">
+<img alt="" class="app-splash-icon" src="assets/logo-icon.png"/>
+<div class="app-brand-title app-brand-title-splash"><strong>BIBLE QUIZ INTERNATIONAL</strong><small>THE ULTIMATE BIBLE CHALLENGE</small></div>
+</div>
+<p class="app-splash-text">Loading your Bible quiz experience…</p>
+<div aria-hidden="true" class="app-splash-spinner"></div>
+</div>
+</div>
+<div class="app-shell">
+<header aria-label="Website header" class="topbar">
+<a aria-label="Bible Quiz International home" class="brand" href="#" id="brandHome">
+<span aria-hidden="true" class="brand-compact"><img alt="" src="assets/logo-icon.png"/><span><strong>BIBLE QUIZ</strong><small>INTERNATIONAL</small></span></span>
+</a>
+<nav aria-label="Quiz controls" class="top-actions">
+<button aria-controls="exitQuizDialog" aria-haspopup="dialog" class="quiz-exit-btn" id="exitQuizBtn" title="Exit quiz" type="button"><span aria-hidden="true">←</span><span>Exit</span></button>
+<button aria-haspopup="dialog" class="profile-chip" id="profileBtn" type="button"><span aria-hidden="true">👤</span><span id="profileName">Guest</span></button>
+<button aria-label="Turn sound off" class="icon-btn" id="soundBtn" title="Toggle sound" type="button">🔊</button>
+<button aria-label="Open quiz settings" class="icon-btn" id="settingsBtn" title="Quiz settings" type="button">⚙</button>
+</nav>
+</header>
+<main id="mainContent" tabindex="-1">
+<section aria-labelledby="welcomeTitle" class="screen hero active" id="welcomeScreen">
+<div class="hero-copy">
+<span class="eyebrow">✦ 5,000+ verified questions</span>
+<h1 id="welcomeTitle">How well do you know the <span class="gold-text">Bible?</span></h1>
+<p>Build lasting Bible knowledge with personalised quizzes, a daily challenge, detailed explanations, achievements and progress tracking. Your current quiz remains available until you deliberately create a new one.</p>
+<div class="hero-actions">
+<button class="primary-btn" id="startBtn" type="button">Play current quiz <span aria-hidden="true">→</span></button>
+<button class="secondary-btn" id="newQuizBtn" type="button">Create New Quiz</button>
+<button class="secondary-btn" id="dailyBtn" type="button">Daily Challenge</button>
+<button class="secondary-btn" id="missedBtn" type="button">Practise missed questions</button>
+</div>
+<div aria-label="Quiz library statistics" class="hero-stats">
+<div><strong>5,000+</strong><span>Question library</span></div>
+<div><strong id="currentLengthStat">30</strong><span>Current quiz</span></div>
+<div><strong id="bestScoreStat">0%</strong><span>Best score</span></div>
+<div><strong id="studyStreakStat">0</strong><span>Day streak</span></div>
+</div>
+</div>
+<section aria-labelledby="dashboardTitle" class="dashboard">
+<div class="section-heading">
+<div><span class="section-kicker">Your progress</span><h2 id="dashboardTitle">Knowledge dashboard</h2></div>
+<button class="text-btn" id="historyBtn" type="button">View quiz history</button>
+</div>
+<div class="dashboard-grid">
+<article class="metric-card"><span>Total quizzes</span><strong id="totalQuizzesMetric">0</strong><small id="totalAnsweredMetric">0 questions answered</small></article>
+<article class="metric-card"><span>Lifetime accuracy</span><strong id="accuracyMetric">0%</strong><small id="correctMetric">0 correct answers</small></article>
+<article class="metric-card"><span>Old Testament mastery</span><strong id="otMasteryMetric">0%</strong><div class="mini-track"><i id="otMasteryBar"></i></div></article>
+<article class="metric-card"><span>New Testament mastery</span><strong id="ntMasteryMetric">0%</strong><div class="mini-track"><i id="ntMasteryBar"></i></div></article>
+</div>
+</section>
+<section aria-labelledby="achievementTitle" class="achievements">
+<div class="section-heading"><div><span class="section-kicker">Milestones</span><h2 id="achievementTitle">Achievements</h2></div><span class="count-pill" id="achievementCount">0 unlocked</span></div>
+<div class="achievement-grid" id="achievementGrid"></div>
+</section>
+</section>
+<section aria-labelledby="questionText" class="screen quiz-screen" hidden="" id="quizScreen">
+<div class="quiz-head">
+<div><span class="round-label" id="roundLabel"></span><span class="mode-label" id="modeLabel"></span></div>
+<div class="progress-wrap">
+<div class="progress-meta"><span id="questionCounter"></span><span id="progressPercent"></span></div>
+<div aria-label="Quiz progress" aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" class="progress-track" id="progressTrack" role="progressbar"><div class="progress-fill" id="progressFill"></div></div>
+</div>
+<div class="quiz-score"><span>Score</span><strong id="scoreValue">0</strong></div>
+</div>
+<div class="question-panel">
+<div class="question-meta"><span class="difficulty" id="difficultyBadge"></span><span class="question-book" id="questionBook"></span></div>
+<h2 class="question-text" id="questionText" tabindex="-1"></h2>
+<div aria-label="Time remaining" class="timer" id="timer" role="timer"><span id="timerValue">15</span></div>
+<div aria-label="Answer choices" class="answer-grid" id="answerGrid" role="group"></div>
+<div aria-atomic="true" aria-live="polite" class="feedback" hidden="" id="feedback" role="status">
+<div class="feedback-title" id="feedbackTitle"></div>
+<p id="feedbackText"></p>
+<span class="reference" id="referenceText"></span>
+<button aria-pressed="false" class="bookmark-btn" id="bookmarkBtn" type="button">☆ Save for study</button>
+</div>
+</div>
+<div class="quiz-footer"><div class="streak">Current streak: <strong id="streakValue">0</strong> 🔥</div><button class="primary-btn next-btn" hidden="" id="nextBtn" type="button">Next question <span aria-hidden="true">→</span></button></div>
+</section>
+<section aria-labelledby="resultTitle" class="screen results-screen" hidden="" id="resultsScreen">
+<div class="results-inner">
+<span class="eyebrow">Challenge complete</span>
+<div aria-label="Bible Quiz International" class="results-brand">
+<img alt="" src="assets/logo-icon.png"/>
+<div class="app-brand-title"><strong>BIBLE QUIZ INTERNATIONAL</strong><small>THE ULTIMATE BIBLE CHALLENGE</small></div>
+</div>
+<div class="result-ring" id="resultRing"><div><strong id="resultPercent">0%</strong><span>Final score</span></div></div>
+<h2 id="resultTitle"></h2><p class="result-message" id="resultMessage"></p>
+<div class="result-stats">
+<article><strong id="correctStat">0</strong><span>Correct</span></article>
+<article><strong id="incorrectStat">0</strong><span>Incorrect</span></article>
+<article><strong id="bestStreakResult">0</strong><span>Best streak</span></article>
+<article><strong id="timeStat">0:00</strong><span>Total time</span></article>
+</div>
+<div class="new-achievements" hidden="" id="newAchievements"></div>
+<div class="result-actions">
+<button class="primary-btn" id="retakeBtn" type="button">Retake current quiz</button>
+<button class="secondary-btn" id="newQuizResultBtn" type="button">Create New Quiz</button>
+<button class="secondary-btn" id="practiceWrongBtn" type="button">Practise these mistakes</button>
+<button class="secondary-btn" id="shareBtn" type="button">Copy result</button>
+<button class="secondary-btn" id="homeBtn" type="button">Return home</button>
+</div>
+<section aria-labelledby="reviewTitle" class="review"><h3 id="reviewTitle">Answer review</h3><div class="review-list" id="reviewList"></div></section>
+</div>
+</section>
+</main>
+<footer>
+<span>5,000+ verified questions • Progress is stored privately in this browser.</span>
+<nav aria-label="Footer links"><button id="dataBtn" type="button">Backup &amp; restore</button><button id="privacyBtn" type="button">Privacy</button></nav>
+</footer>
+</div>
+<dialog aria-describedby="exitQuizDescription" aria-labelledby="exitQuizTitle" class="app-dialog exit-quiz-dialog" id="exitQuizDialog">
+<div class="dialog-card">
+<div class="dialog-head">
+<div><span class="section-kicker">Current attempt</span><h2 id="exitQuizTitle">Leave this quiz?</h2></div>
+<button aria-label="Continue quiz and close this dialog" class="close-btn" id="closeExitQuizBtn" type="button">×</button>
+</div>
+<div aria-hidden="true" class="exit-dialog-symbol">←</div>
+<p class="exit-dialog-copy" id="exitQuizDescription">Your current quiz will remain saved so you can retake the same questions later. Your score and progress in this attempt will be lost.</p>
+<div class="dialog-actions exit-dialog-actions">
+<button class="primary-btn" id="continueQuizBtn" type="button">Continue Quiz</button>
+<button class="secondary-btn danger-btn" id="confirmExitQuizBtn" type="button">Leave and Return Home</button>
+</div>
+</div>
+</dialog>
+<dialog aria-labelledby="settingsTitle" class="app-dialog" id="settingsDialog">
+<form class="dialog-card" id="settingsForm" method="dialog">
+<div class="dialog-head"><div><span class="section-kicker">Personalise</span><h2 id="settingsTitle">Quiz settings</h2></div><button aria-label="Close settings" class="close-btn" id="closeSettingsBtn" type="button">×</button></div>
+<div class="form-grid">
+<label>Quiz focus<select id="focusSelect"><option value="all">Whole Bible — balanced</option><option value="OT">Old Testament only</option><option value="NT">New Testament only</option></select></label>
+<label>Difficulty<select id="difficultySelect"><option value="balanced">Balanced — easy to hard</option><option value="Easy">Easy only</option><option value="Medium">Medium only</option><option value="Hard">Hard only</option></select></label>
+<label>Quiz length<select id="lengthSelect"><option value="10">10 questions</option><option value="20">20 questions</option><option value="30">30 questions</option><option value="50">50 questions</option></select></label>
+<label>Time per question<select id="timerSelect"><option value="0">No timer</option><option value="10">10 seconds</option><option value="15">15 seconds</option><option value="20">20 seconds</option><option value="30">30 seconds</option></select></label>
+<label>Book<select id="bookSelect"><option value="all">All books</option></select></label>
+<label>Category<select id="categorySelect"><option value="all">All categories</option></select></label>
+</div>
+<div class="switch-list">
+<label class="switch-row"><span><strong>Shuffle current quiz</strong><small>Retakes keep the same questions but can change their order.</small></span><input id="shuffleToggle" role="switch" type="checkbox"/></label>
+<label class="switch-row"><span><strong>Hybrid cinematic gaming sound effects</strong><small>Mastered impacts, orchestral rises, shimmer and game-style feedback.</small></span><input id="soundToggle" role="switch" type="checkbox"/></label>
+<div aria-label="Audio volume controls" class="audio-mixer">
+<label class="volume-control" for="masterVolume"><span><strong>Master volume</strong><output for="masterVolume" id="masterVolumeValue">100%</output></span><input id="masterVolume" max="100" min="0" step="5" type="range" value="100"/></label>
+<label class="volume-control" for="effectsVolume"><span><strong>Effects volume</strong><output for="effectsVolume" id="effectsVolumeValue">100%</output></span><input id="effectsVolume" max="100" min="0" step="5" type="range" value="100"/></label>
+</div>
+<label class="switch-row"><span><strong>Final-five countdown tension</strong><small>Increasing ticks and bass pulses during the final five seconds.</small></span><input id="countdownSoundToggle" role="switch" type="checkbox"/></label>
+<label class="switch-row"><span><strong>Reduced interface motion</strong><small>Minimises movement beyond your system preference.</small></span><input id="motionToggle" role="switch" type="checkbox"/></label>
+</div>
+<p class="form-note">These selections apply when you create a New Quiz. Retake Current Quiz always preserves the saved question set.</p>
+<div class="dialog-actions"><button class="secondary-btn" id="cancelSettingsBtn" type="button">Cancel</button><button class="primary-btn" id="saveSettingsBtn" type="submit">Save settings</button></div>
+</form>
+</dialog>
+<dialog aria-labelledby="profileTitle" class="app-dialog profile-dialog" id="profileDialog">
+<div class="dialog-card">
+<div class="dialog-head"><div><span class="section-kicker">Local profiles</span><h2 id="profileTitle">Who is playing?</h2></div><button aria-label="Close profiles" class="close-btn" id="closeProfileBtn">×</button></div>
+<div class="profile-list" id="profileList"></div>
+<form class="inline-form" id="newProfileForm"><label for="newProfileName">Create a profile</label><div><input id="newProfileName" maxlength="30" placeholder="Name" required=""/><button class="primary-btn" type="submit">Create</button></div></form>
+<p class="form-note">Profiles and progress are private to this browser. Use Backup &amp; Restore to transfer them to another browser.</p>
+</div>
+</dialog>
+<dialog aria-labelledby="historyTitle" class="app-dialog wide-dialog" id="historyDialog">
+<div class="dialog-card"><div class="dialog-head"><div><span class="section-kicker">Learning analytics</span><h2 id="historyTitle">Quiz history</h2></div><button aria-label="Close history" class="close-btn" id="closeHistoryBtn">×</button></div><div class="history-summary" id="historySummary"></div><div class="history-list" id="historyList"></div></div>
+</dialog>
+<dialog aria-labelledby="dataTitle" class="app-dialog" id="dataDialog">
+<div class="dialog-card"><div class="dialog-head"><div><span class="section-kicker">Progress controls</span><h2 id="dataTitle">Backup &amp; restore</h2></div><button aria-label="Close backup and restore" class="close-btn" id="closeDataBtn">×</button></div><p>Export profiles, progress, settings and bookmarks as a private JSON backup. Importing replaces matching local data only after validation.</p><div class="data-actions"><button class="primary-btn" id="exportDataBtn" type="button">Export backup</button><label class="secondary-btn file-label">Import backup<input accept="application/json" hidden="" id="importDataInput" type="file"/></label></div><p class="form-note">Cloud synchronisation is not enabled. This website provides secure, user-controlled backup and restore without automatically transmitting data.</p></div>
+</dialog>
+<dialog aria-labelledby="privacyTitle" class="app-dialog" id="privacyDialog">
+<div class="dialog-card"><div class="dialog-head"><h2 id="privacyTitle">Privacy</h2><button aria-label="Close privacy information" class="close-btn" id="closePrivacyBtn">×</button></div><p>This website stores quiz settings, profiles, history, achievements and bookmarks locally in your browser. It includes no advertising, third-party analytics or remote tracking. Results are copied to your clipboard only when you deliberately use the Copy result function.</p></div>
+</dialog>
+<div aria-atomic="true" aria-live="assertive" class="sr-only" id="liveRegion"></div>
+<div aria-live="polite" class="toast" id="toast" role="status"></div>
+<noscript><div class="noscript">JavaScript is required to run the interactive quiz.</div></noscript>
+</body>
+</html>

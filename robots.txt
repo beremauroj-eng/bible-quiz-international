@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://biblequiz.international/sitemap.xml
