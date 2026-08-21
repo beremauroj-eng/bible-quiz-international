@@ -71,9 +71,17 @@ An English/Spanish book pair is complete only when it has:
 - [x] Corrected structured-data breadcrumbs and replaced duplicated related-book routes.
 - [x] Preserved canonical, hreflang, social metadata and quiz-parameter relationships.
 
+## Completed in tranche 7
+
+- [x] Rebuilt Isaiah through Daniel: five complete English/Spanish book pairs.
+- [x] Added six precise, non-duplicate referenced questions to all 10 pages.
+- [x] Added prophetic and apocalyptic reading maps, study methods and interpretation cautions.
+- [x] Corrected structured-data breadcrumbs and replaced generic related-book routes.
+- [x] Preserved canonical, hreflang, social metadata and quiz-parameter relationships.
+
 ## Remaining rollout
 
-- [ ] Audit the remaining 43 English/Spanish book pairs for duplicate questions and links.
+- [ ] Audit the remaining 38 English/Spanish book pairs for duplicate questions and links.
 - [ ] Prioritise pages appearing in Search Console impressions, then complete the remaining books by canonical order.
 - [ ] Update sitemap `lastmod` only when a page receives a substantive editorial revision.
 - [ ] Run HTML, internal-link, hreflang, canonical and structured-data checks before merge.
