@@ -147,15 +147,26 @@ An English/Spanish book pair is complete only when it has:
 ## Indexed topic and article audit
 
 - [x] Audited 32 topic detail pages and 12 article detail pages listed in the bilingual sitemaps.
-- [ ] Expand topic pages from four to at least six referenced questions and strengthen their study guidance.
-- [ ] Expand short learning articles with actionable examples, facilitator workflows and evaluation guidance.
-- [ ] Revalidate the 44 detail pages before requesting a new AdSense review.
+- [x] Expanded all 32 topic pages to six unique referenced questions with strengthened individual and group study guidance.
+- [x] Expanded all 12 learning articles with actionable implementation, measurement, accessibility and facilitation guidance.
+- [x] Revalidated all 44 indexed topic/article detail pages after substantive revision.
+
+## Completed in tranche 15
+
+- [x] Expanded all 32 bilingual topic pages to six unique referenced questions and 460+ substantive words.
+- [x] Replaced duplicate topic questions and corrected topic JSON-LD breadcrumb URLs.
+
+## Completed in tranche 16
+
+- [x] Expanded all 12 bilingual learning articles to 474–563 substantive words.
+- [x] Added implementation, measurement, privacy, accessibility and facilitation guidance.
+- [x] Corrected article JSON-LD URLs and updated sitemap dates for 176 revised bilingual URLs.
 
 ## Remaining rollout
 
-- [ ] Audit the remaining 0 English/Spanish book pairs for duplicate questions and links.
-- [ ] Prioritise pages appearing in Search Console impressions, then complete the remaining books by canonical order.
-- [ ] Update sitemap `lastmod` only when a page receives a substantive editorial revision.
-- [ ] Run HTML, internal-link, hreflang, canonical and structured-data checks before merge.
-- [ ] Review indexed topic and article pages for the same quality gate.
+- [x] Audited all 66 English/Spanish book pairs for duplicate questions and links.
+- [x] Completed every book page in canonical order; Search Console can now guide post-remediation optimisation.
+- [x] Updated sitemap `lastmod` for all substantively revised book, topic and article pages.
+- [x] Ran content, internal-link, hreflang, canonical and structured-data checks before each merge.
+- [x] Reviewed and remediated all indexed bilingual topic and article detail pages.
 - [ ] Request a new AdSense review only after the representative and sitewide defects are remediated.
