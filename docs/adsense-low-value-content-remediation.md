@@ -38,9 +38,18 @@ An English/Spanish book pair is complete only when it has:
 - [x] Replaced the duplicate Obadiah testament question.
 - [x] Corrected Genesis meta descriptions and breadcrumb destinations.
 
+## Completed in tranche 3
+
+- [x] Rebuilt Exodus, Leviticus, Numbers and Deuteronomy in English and Spanish.
+- [x] Added six precise, non-duplicate referenced questions to each page.
+- [x] Added a book-specific reading map and study method to every page.
+- [x] Added translation and interpretation cautions appropriate to each book.
+- [x] Corrected eight truncated meta descriptions and eight breadcrumb destinations.
+- [x] Replaced duplicated related-book navigation with unique contextual routes.
+
 ## Remaining rollout
 
-- [ ] Audit the remaining 64 English/Spanish book pairs for duplicate questions and links.
+- [ ] Audit the remaining 60 English/Spanish book pairs for duplicate questions and links.
 - [ ] Prioritise pages appearing in Search Console impressions, then complete the remaining books by canonical order.
 - [ ] Update sitemap `lastmod` only when a page receives a substantive editorial revision.
 - [ ] Run HTML, internal-link, hreflang, canonical and structured-data checks before merge.
