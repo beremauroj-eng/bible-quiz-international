@@ -135,6 +135,22 @@ An English/Spanish book pair is complete only when it has:
 - [x] Corrected structured-data breadcrumbs and contextual navigation.
 - [x] Completed all 66 English/Spanish book-page pairs in canonical scope.
 
+## Sitewide book-page audit
+
+- [x] Audited all 132 English/Spanish book pages after the final merge.
+- [x] Confirmed 66 reciprocal bilingual pairs with 409–573 substantive article words.
+- [x] Confirmed six or seven unique referenced questions on every page.
+- [x] Confirmed matching descriptions, valid JSON-LD, canonical breadcrumbs and reciprocal hreflang on all 132 pages.
+- [x] Confirmed all 136 unique contextual navigation targets resolve.
+- [x] Recorded zero book-page quality-gate failures.
+
+## Indexed topic and article audit
+
+- [x] Audited 32 topic detail pages and 12 article detail pages listed in the bilingual sitemaps.
+- [ ] Expand topic pages from four to at least six referenced questions and strengthen their study guidance.
+- [ ] Expand short learning articles with actionable examples, facilitator workflows and evaluation guidance.
+- [ ] Revalidate the 44 detail pages before requesting a new AdSense review.
+
 ## Remaining rollout
 
 - [ ] Audit the remaining 0 English/Spanish book pairs for duplicate questions and links.
