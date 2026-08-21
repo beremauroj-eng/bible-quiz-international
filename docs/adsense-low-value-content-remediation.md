@@ -47,9 +47,17 @@ An English/Spanish book pair is complete only when it has:
 - [x] Corrected eight truncated meta descriptions and eight breadcrumb destinations.
 - [x] Replaced duplicated related-book navigation with unique contextual routes.
 
+## Completed in tranche 4
+
+- [x] Rebuilt Joshua through 2 Kings: seven complete English/Spanish book pairs.
+- [x] Added six precise, non-duplicate referenced questions to all 14 pages.
+- [x] Added book-specific reading maps, study methods and context cautions.
+- [x] Corrected truncated descriptions, structured-data breadcrumbs and repeated related links.
+- [x] Preserved canonical, hreflang and quiz-parameter relationships across both languages.
+
 ## Remaining rollout
 
-- [ ] Audit the remaining 60 English/Spanish book pairs for duplicate questions and links.
+- [ ] Audit the remaining 53 English/Spanish book pairs for duplicate questions and links.
 - [ ] Prioritise pages appearing in Search Console impressions, then complete the remaining books by canonical order.
 - [ ] Update sitemap `lastmod` only when a page receives a substantive editorial revision.
 - [ ] Run HTML, internal-link, hreflang, canonical and structured-data checks before merge.
