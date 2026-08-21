@@ -162,6 +162,13 @@ An English/Spanish book pair is complete only when it has:
 - [x] Added implementation, measurement, privacy, accessibility and facilitation guidance.
 - [x] Corrected article JSON-LD URLs and updated sitemap dates for 176 revised bilingual URLs.
 
+## AdSense resubmission
+
+- [x] Confirmed the remediated topic and article content was live in production.
+- [x] Submitted the AdSense site-review request on 2026-08-21.
+- [x] Verified the account status changed to `Getting ready` with `Review requested`.
+- [x] Recorded AdSense last update: 2026-08-21 6:39 PM AWST.
+
 ## Remaining rollout
 
 - [x] Audited all 66 English/Spanish book pairs for duplicate questions and links.
@@ -169,4 +176,4 @@ An English/Spanish book pair is complete only when it has:
 - [x] Updated sitemap `lastmod` for all substantively revised book, topic and article pages.
 - [x] Ran content, internal-link, hreflang, canonical and structured-data checks before each merge.
 - [x] Reviewed and remediated all indexed bilingual topic and article detail pages.
-- [ ] Request a new AdSense review only after the representative and sitewide defects are remediated.
+- [x] Requested a new AdSense review after representative and sitewide defects were remediated.
