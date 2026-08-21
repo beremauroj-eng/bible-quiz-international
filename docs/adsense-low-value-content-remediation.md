@@ -103,9 +103,17 @@ An English/Spanish book pair is complete only when it has:
 - [x] Corrected structured-data breadcrumbs and generic related-book routes.
 - [x] Completed the remaining Old Testament book-page remediation.
 
+## Completed in tranche 11
+
+- [x] Rebuilt Matthew, Mark, Luke and John: four complete English/Spanish book pairs.
+- [x] Added six precise, non-duplicate referenced questions to all eight pages.
+- [x] Added Gospel reading maps, study methods and manuscript/context cautions.
+- [x] Corrected structured-data breadcrumbs and contextual navigation.
+- [x] Preserved canonical, hreflang, social metadata and quiz-parameter relationships.
+
 ## Remaining rollout
 
-- [ ] Audit the remaining 27 English/Spanish book pairs for duplicate questions and links.
+- [ ] Audit the remaining 23 English/Spanish book pairs for duplicate questions and links.
 - [ ] Prioritise pages appearing in Search Console impressions, then complete the remaining books by canonical order.
 - [ ] Update sitemap `lastmod` only when a page receives a substantive editorial revision.
 - [ ] Run HTML, internal-link, hreflang, canonical and structured-data checks before merge.
