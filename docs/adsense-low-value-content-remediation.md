@@ -119,9 +119,17 @@ An English/Spanish book pair is complete only when it has:
 - [x] Corrected structured-data breadcrumbs and contextual navigation.
 - [x] Preserved canonical, hreflang, social metadata and quiz-parameter relationships.
 
+## Completed in tranche 13
+
+- [x] Rebuilt 1 Corinthians through Philemon: twelve complete English/Spanish book pairs.
+- [x] Added six precise, non-duplicate referenced questions to all 24 pages.
+- [x] Added letter-specific reading maps, study methods and interpretation cautions.
+- [x] Corrected structured-data breadcrumbs and contextual navigation.
+- [x] Preserved canonical, hreflang, social metadata and quiz-parameter relationships.
+
 ## Remaining rollout
 
-- [ ] Audit the remaining 21 English/Spanish book pairs for duplicate questions and links.
+- [ ] Audit the remaining 9 English/Spanish book pairs for duplicate questions and links.
 - [ ] Prioritise pages appearing in Search Console impressions, then complete the remaining books by canonical order.
 - [ ] Update sitemap `lastmod` only when a page receives a substantive editorial revision.
 - [ ] Run HTML, internal-link, hreflang, canonical and structured-data checks before merge.
